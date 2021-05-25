@@ -26,7 +26,12 @@ body {
   display: flex;
 }
 .menu-item {
-  width: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
 }
 .menu-icon-bar {
   height: 6vh;
