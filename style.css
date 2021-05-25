@@ -47,13 +47,16 @@ body {
 }
 .menu-icon-bar {
   height: 6vh;
+  background-color: rgb(238, 234, 234);
   display: flex;
   align-items: center;
-  background-color: rgb(235, 235, 235);
 }
 .menu-icon {
   padding-left: 10px;
   padding-right: 10px;
+  /* height: 100%; */
+  display: flex;
+  align-items: center;
 }
 .menu-icon:hover {
   background-color: lightgray;
