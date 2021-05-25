@@ -41,6 +41,10 @@ body {
   background-color: #0f6b38;
   cursor: pointer;
 }
+.menu-item.selected {
+  background-color: #fff;
+  cursor: default;
+}
 .menu-icon-bar {
   height: 6vh;
 }
