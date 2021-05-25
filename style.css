@@ -83,26 +83,28 @@ body {
 }
 .data-container {
   height: 75vh;
+  display: flex;
+  flex-wrap: wrap;
 }
 .select-all {
-  width: 15px;
-  height: 15px;
-  border: 1px solid green;
+  width: 30px;
+  height: 30px;
+  border: 1px solid lightgray;
 }
 .column-name-container {
-  width: calc(100vw - 15px);
-  height: 15px;
-  border: 1px solid red;
+  width: calc(100vw - 30px);
+  height: 30px;
+  border: 1px solid lightgray;
 }
 .row-name-container {
-  width: 15px;
-  height: calc(75vh - 15px);
-  border: 1px solid blue;
+  width: 30px;
+  height: calc(75vh - 30px);
+  border: 1px solid lightgray;
 }
 .input-cell-container {
-  width: calc(100vw - 15px);
-  height: calc(75vh - 15px);
-  border: 1px solid yellow;
+  width: calc(100vw - 30px);
+  height: calc(75vh - 30px);
+  border: 1px solid lightgray;
 }
 .sheet-bar {
   height: 4vh;
