@@ -84,6 +84,26 @@ body {
 .data-container {
   height: 75vh;
 }
+.select-all {
+  width: 15px;
+  height: 15px;
+  border: 1px solid green;
+}
+.column-name-container {
+  width: calc(100vw - 15px);
+  height: 15px;
+  border: 1px solid red;
+}
+.row-name-container {
+  width: 15px;
+  height: calc(75vh - 15px);
+  border: 1px solid blue;
+}
+.input-cell-container {
+  width: calc(100vw - 15px);
+  height: calc(75vh - 15px);
+  border: 1px solid yellow;
+}
 .sheet-bar {
   height: 4vh;
   display: flex;
@@ -122,6 +142,9 @@ body {
   justify-content: center;
   font-weight: 600;
   border-right: 1px solid lightgray;
+}
+.sheet-tab {
+  cursor: default;
 }
 
 /* color-picker  extension
