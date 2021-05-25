@@ -2,6 +2,7 @@ body {
   margin: 0;
   /* to prevent scrolling of page */
   overflow: hidden;
+  font-size: 14px;
 }
 * {
   /* includes padding and border in container height */
@@ -9,36 +10,35 @@ body {
 }
 .container {
   height: 100vh;
-  border: 2px solid red;
 }
 .title-bar {
   height: 5vh;
-  border: 2px solid green;
+  background-color: #107c41;
+  display: flex;
+  /* flex-dirn : row(by-default) justify-content- aligns horizonally and align -items aligns veratcally */
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
 .menu-bar {
   height: 5vh;
-  border: 2px solid blue;
 }
 .menu-icon-bar {
   height: 6vh;
-  border: 2px solid pink;
 }
 .formula-bar {
-  height: 6vh;
-  border: 2px solid orange;
+  height: 5vh;
 }
 .data-container {
-  height: 74vh;
-  border: 2px solid black;
+  height: 75vh;
 }
 .sheet-bar {
   height: 4vh;
-  border: 2px solid yellow;
 }
 
 /* color-picker  extension
-flex-row: jsutify-content-center: horizonally  for vertically aligning  : use align-items
-flex-column : jsutify-content-center: aligns in center
+flex-dirn:row (horizzontally aligned)  if justify-content:center (horizonally)  for vertically aligning  : use align-items:center
+flex-column : justify-content-center: aligns in center veratically   & align-items:center(aligns horizonally)
 div : block -> flex-direction :column
 
 material-icons cdn
