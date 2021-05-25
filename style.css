@@ -105,6 +105,10 @@ body {
   color: #107c41;
   width: 40px;
 }
+.icon-add:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
 .sheet-tab-container {
   border: 1px solid lightgray;
   width: calc(100vw - 110px);
