@@ -96,6 +96,11 @@ body {
 .icon-right-scroll {
   font-size: 30px;
 }
+.icon-left-scroll:hover,
+.icon-right-scroll:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
 .icon-add {
   color: #107c41;
   width: 40px;
@@ -108,10 +113,11 @@ body {
   border-bottom: 4px solid #107c41;
   padding-left: 10px;
   padding-right: 10px;
-  width: 70px;
+  width: 80px;
   align-items: center;
   justify-content: center;
   font-weight: 600;
+  border-right: 1px solid lightgray;
 }
 
 /* color-picker  extension
