@@ -18,7 +18,7 @@ body {
   /* flex-dirn : row(by-default) justify-content- aligns horizonally and align -items aligns veratcally */
   justify-content: center;
   align-items: center;
-  color: white;
+  color: #fff;
 }
 .menu-bar {
   height: 5vh;
@@ -32,6 +32,10 @@ body {
   font-size: 18px;
   display: flex;
   align-items: center;
+}
+.menu-item.selected {
+  background-color: #fff;
+  color: #107c41;
 }
 .menu-icon-bar {
   height: 6vh;
