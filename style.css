@@ -25,6 +25,9 @@ body {
   background-color: #107c41;
   display: flex;
 }
+.menu-item {
+  width: 100px;
+}
 .menu-icon-bar {
   height: 6vh;
 }
