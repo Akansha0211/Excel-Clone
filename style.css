@@ -86,6 +86,7 @@ body {
 }
 .sheet-bar {
   height: 4vh;
+  display: flex;
 }
 
 /* color-picker  extension
