@@ -37,6 +37,10 @@ body {
   background-color: #fff;
   color: #107c41;
 }
+.menu-item:hover {
+  background-color: #0f6b38;
+  cursor: pointer;
+}
 .menu-icon-bar {
   height: 6vh;
 }
