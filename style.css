@@ -89,23 +89,29 @@ body {
   display: flex;
   align-items: center;
 }
+.scroller {
+  width: 70px;
+}
 .icon-left-scroll,
 .icon-right-scroll {
   font-size: 30px;
 }
 .icon-add {
   color: #107c41;
-  margin-left: 10px;
-  margin-right: 10px;
+  width: 40px;
 }
 .sheet-tab-container {
   border: 1px solid lightgray;
-  width: 100%;
+  width: calc(100vw - 110px);
 }
 .sheet-tab {
   border-bottom: 4px solid #107c41;
   padding-left: 10px;
   padding-right: 10px;
+  width: 70px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
 }
 
 /* color-picker  extension
