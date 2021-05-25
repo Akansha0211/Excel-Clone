@@ -98,8 +98,14 @@ body {
   margin-left: 10px;
   margin-right: 10px;
 }
+.sheet-tab-container {
+  border: 1px solid lightgray;
+  width: 100%;
+}
 .sheet-tab {
   border-bottom: 4px solid #107c41;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /* color-picker  extension
