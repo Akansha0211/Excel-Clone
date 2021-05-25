@@ -47,6 +47,18 @@ body {
 }
 .menu-icon-bar {
   height: 6vh;
+  display: flex;
+  align-items: center;
+  background-color: rgb(235, 235, 235);
+}
+.menu-icon {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.menu-icon:hover {
+  background-color: lightgray;
+  cursor: pointer;
+  height: 100%;
 }
 .formula-bar {
   height: 5vh;
