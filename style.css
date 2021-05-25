@@ -87,6 +87,19 @@ body {
 .sheet-bar {
   height: 4vh;
   display: flex;
+  align-items: center;
+}
+.icon-left-scroll,
+.icon-right-scroll {
+  font-size: 30px;
+}
+.icon-add {
+  color: #107c41;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.sheet-tab {
+  border-bottom: 4px solid #107c41;
 }
 
 /* color-picker  extension
