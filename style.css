@@ -1,3 +1,41 @@
+body {
+  margin: 0;
+  /* to prevent scrolling of page */
+  overflow: hidden;
+}
+* {
+  /* includes padding and border in container height */
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  border: 2px solid red;
+}
+.title-bar {
+  height: 5vh;
+  border: 2px solid green;
+}
+.menu-bar {
+  height: 5vh;
+  border: 2px solid blue;
+}
+.menu-icon-bar {
+  height: 6vh;
+  border: 2px solid pink;
+}
+.formula-bar {
+  height: 6vh;
+  border: 2px solid orange;
+}
+.data-container {
+  height: 74vh;
+  border: 2px solid black;
+}
+.sheet-bar {
+  height: 4vh;
+  border: 2px solid yellow;
+}
+
 /* color-picker  extension
 flex-row: jsutify-content-center: horizonally  for vertically aligning  : use align-items
 flex-column : jsutify-content-center: aligns in center
