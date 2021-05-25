@@ -22,6 +22,8 @@ body {
 }
 .menu-bar {
   height: 5vh;
+  background-color: #107c41;
+  display: flex;
 }
 .menu-icon-bar {
   height: 6vh;
@@ -39,7 +41,8 @@ body {
 /* color-picker  extension
 flex-dirn:row (horizzontally aligned)  if justify-content:center (horizonally)  for vertically aligning  : use align-items:center
 flex-column : justify-content-center: aligns in center veratically   & align-items:center(aligns horizonally)
-div : block -> flex-direction :column
+
+div : block (comes vertically at first)-> flex-direction :column
 
 material-icons cdn
 */
