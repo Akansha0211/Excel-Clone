@@ -35,10 +35,20 @@ $(document).ready(function(){
         $(".input-cell-container").append(row);
     }
 
+    //By default left-align is selected , on click event it is removed 
+    // & selected class is applied to the align-icon clicked
     $(".align-icon").click(function(){
         $(".align-icon.selected").removeClass("selected");
         $(this).addClass("selected");
     })
+
+    //if style not applied earlier then apply and if already is applied and clicked again
+    //then remove --> so use toggle class for that...
+    $(".style-icon").click(function(){
+        $(this).toggleClass("selected");
+    })
+
+    //make cells selectable...
     
 })
 
