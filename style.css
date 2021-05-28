@@ -185,6 +185,9 @@ body {
 }
 .function-sign {
   width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .formula-input {
   width: calc(100vw - 160px);
