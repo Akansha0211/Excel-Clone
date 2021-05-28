@@ -16,6 +16,8 @@ $(document).ready(function(){
         let column = $(`<div class="column-name" id="colCod-${ans} col-id-${i}">${ans}</div>`);
         $(".column-name-container").append(column);
         
+        let row = $(`<div class="row-name" id=row-Id-${i}>${i}</div>`);
+        $(".row-name-container").append(row);
     }
     
 })
