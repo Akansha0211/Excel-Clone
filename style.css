@@ -183,6 +183,10 @@ body {
   height: 70%;
   border: 1px solid lightgray;
   background-color: #fff;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+  display: flex;
+  align-items: center;
 }
 .selected-cell {
   width: 120px;
