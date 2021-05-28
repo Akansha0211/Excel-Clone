@@ -178,6 +178,7 @@ body {
   min-height: 25px;
   border-right: 1px solid lightgray;
   border-bottom: 1px solid lightgray;
+  outline-color: #107c41;
 }
 .formula-editor {
   height: 70%;
@@ -199,6 +200,7 @@ body {
 }
 .formula-input {
   width: calc(100vw - 160px);
+  outline-color: #107c41;
 }
 
 /* color-picker  extension
