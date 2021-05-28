@@ -202,6 +202,10 @@ body {
   width: calc(100vw - 160px);
   outline-color: #107c41;
 }
+.menu-icon.selected {
+  background-color: lightgray;
+  height: 100%;
+}
 
 /* color-picker  extension
 flex-dirn:row (horizzontally aligned)  if justify-content:center (horizonally)  for vertically aligning  : use align-items:center
