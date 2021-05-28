@@ -182,6 +182,7 @@ body {
 .formula-editor {
   height: 70%;
   border: 1px solid lightgray;
+  background-color: #fff;
 }
 .selected-cell {
   width: 120px;
