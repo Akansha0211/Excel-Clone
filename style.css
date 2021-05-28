@@ -82,6 +82,9 @@ body {
   height: 5vh;
   display: flex;
   align-items: center;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+  background-color: rgb(238, 234, 234);
 }
 .data-container {
   height: 75vh;
