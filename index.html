@@ -63,11 +63,11 @@
         <div class="data-container">
             <div class="select-all"></div>
             <div class="column-name-container">
-                <div class="column-name">A</div>
-                <div class="column-name">B</div>
+                <div class="column-name" id="colCod-A col-id-1">A</div>
+                <div class="column-name" id="colCod-B col-id-2">B</div>
             </div>
             <div class="row-name-container">
-                <div class="row-name">1</div>
+                <div class="row-name" id=row-Id-1>1</div>
                 <div class="row-name">2</div>
             </div>
             <div class="input-cell-container">
@@ -119,6 +119,23 @@ import google icons : material icons cdn
       rel="stylesheet">
 
       icons are diplay:inline-block(by default)
+
+
+      col  code - A,B,C, D 
+      col-id -> 1,2,3,....
+
+
+      str = ""
+      while(n>0){
+          rem = n% 26;
+          if (rem == 0){
+              str = "Z" + str;
+              n = Math.floor(n/26) - 1;
+          }else{
+              str - str.fromcharcode(rem-1+65)+str;
+              n = Math.floor(n/26)
+          }
+      }
 -->
 
 
