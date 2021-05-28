@@ -80,6 +80,8 @@ body {
 
 .formula-bar {
   height: 5vh;
+  display: flex;
+  align-items: center;
 }
 .data-container {
   height: 75vh;
@@ -173,6 +175,19 @@ body {
   min-height: 25px;
   border-right: 1px solid lightgray;
   border-bottom: 1px solid lightgray;
+}
+.formula-editor {
+  height: 70%;
+  border: 1px solid lightgray;
+}
+.selected-cell {
+  width: 120px;
+}
+.function-sign {
+  width: 40px;
+}
+.formula-input {
+  width: calc(100vw - 160px);
 }
 
 /* color-picker  extension
