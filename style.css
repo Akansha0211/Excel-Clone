@@ -150,7 +150,7 @@ body {
   cursor: default;
 }
 .column-name {
-  width: 100px;
+  min-width: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
