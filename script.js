@@ -49,6 +49,10 @@ $(document).ready(function(){
     })
 
     //make cells selectable...
+    $(".input-cell").click(function(){
+        $(".input-cell.selected").removeClass("selected");
+        $(this).addClass("selected");
+    })
     
 })
 

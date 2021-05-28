@@ -180,6 +180,9 @@ body {
   border-bottom: 1px solid lightgray;
   outline-color: #107c41;
 }
+.input-cell.selected {
+  border: 2px solid #107c41;
+}
 .formula-editor {
   height: 70%;
   border: 1px solid lightgray;
