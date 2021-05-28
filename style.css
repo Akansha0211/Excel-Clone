@@ -169,8 +169,8 @@ body {
   display: flex;
 }
 .input-cell {
-  width: 100px;
-  height: 25px;
+  min-width: 100px;
+  min-height: 25px;
   border-right: 1px solid lightgray;
   border-bottom: 1px solid lightgray;
 }
